@@ -839,7 +839,8 @@
     }
     .section2{
         padding-bottom: 50px;
-        grid-template-columns: repeat(2, 48%);
+        gap: 15px;
+        grid-template-columns: repeat(2, 190px);
         grid-template-rows: repeat(3, auto);
         grid-template-areas: "i1 i2"
                              "i3 i4"

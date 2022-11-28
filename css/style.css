@@ -525,6 +525,7 @@
 .section8{
     height: 120vh;
     width: 100%;
+    display: none;
 }
 .proccess-block img{
     margin-top: 40px;
@@ -777,7 +778,7 @@
       font-size: 20px;  
     }
     .section2{
-        grid-template-columns: repeat(4, 250px);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, auto);
     }
     .sircle-1{
@@ -837,7 +838,7 @@
     }
     .section2{
         padding-bottom: 50px;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         grid-template-areas: "i1 i2"
                              "i3 i4"

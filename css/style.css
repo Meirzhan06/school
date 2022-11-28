@@ -908,6 +908,13 @@
     }
     .price-block{
         width: 100%;
+        padding: 60px 20px 50px 40px;
+    }
+    .price b{
+        font-size: 36px;
+    }
+    .price i{
+        font-size: 36px;
     }
     .section4{
         padding-top: 90px;

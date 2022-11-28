@@ -555,6 +555,7 @@
 .footer{
     height: 370px;
     width: 100%;
+    display: none;
 }
 .footer-container{
     height: 100%;

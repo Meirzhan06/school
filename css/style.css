@@ -1011,7 +1011,12 @@
     .instagram-icon{
         margin: 5px 0 0 0;
     }
-
+    .footer{
+        margin-top: 0px;
+    }
+    .price-block{
+        height: 200px;
+    }
 }
 @media (max-width: 768px){
     .nav-container{

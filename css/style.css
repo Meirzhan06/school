@@ -908,7 +908,7 @@
     }
     .price-block{
         width: 100%;
-        padding: 60px 20px 50px 40px;
+        padding: 60px 20px 50px 20px;
     }
     .price b{
         font-size: 36px;
@@ -925,6 +925,9 @@
     }
     .block-text2 button{
         width: 100%;
+    }
+    .a{
+        padding: 35px 10px 35px 20px;
     }
 }
 @media (max-width: 768px){

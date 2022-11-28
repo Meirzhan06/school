@@ -561,7 +561,7 @@
     width: 100%;
 }
 .footer-container{
-    width: 1200px;
+    max-width: 1200px;
     height: 100%;
     margin: 0 auto;
     padding: 0 10px;
@@ -571,14 +571,6 @@
     height: auto;
     width: 100%;
     background-color: #ECECEC;
-    display: flex;
-    align-items: center;
-}
-.footer-contacts1{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
 }
 .whatsapp-block{
     width: 30%;
@@ -632,6 +624,13 @@
     justify-content: end;
     align-items: center;
 }
+.footer-contacts1{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
 .footer-navigation{
     height: auto;
     width: 100%;
@@ -840,7 +839,7 @@
         width: 475px;
     }
     .sec1-4center{
-        justify-content: start;
+        width: 100%;
     }
 }
 @media (max-width: 1024px){

@@ -10,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .wrapper{
     height: 100vh;
@@ -63,18 +64,20 @@
 .burger-menu{
     background-color: #fff;
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     position:fixed;
     left: 0;
     top: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding: 15px 40px 0 0;
     font-size: 26px;
     color: #2779CF;
     transform: translateY(-100vh);
     transition: 1s all;
+}
+.burger-menu p{
+    margin: 15px 15px 0 0;
 }
 .burger-menu.active{
     transform: translateY(0vh);
@@ -888,7 +891,7 @@
     .section2{
         padding-bottom: 50px;
         gap: 15px;
-        grid-template-columns: repeat(2, 48%);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, auto);
         grid-template-areas: "i1 i2"
                              "i3 i4"
@@ -906,19 +909,19 @@
         flex-direction: column;
     }
     .sircle1{
-        height: 350px;
+        height: 330px;
         margin: 0;
         margin-top: 30px;
         display: flex;
         justify-content: center;
     }
     .sircle-1{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
     }
     .sircle1 img{
-        width: 350px;
-        height: 350px;
+        width: 330px;
+        height: 330px;
     }
     .sircle-2{
         width: 350px;
@@ -953,10 +956,6 @@
     }
     .price-blocks{
         flex-direction: column;
-    }
-    .price-block{
-        width: 100%;
-        padding: 60px 20px 50px 20px;
     }
     .price b{
         font-size: 36px;
@@ -1004,6 +1003,7 @@
     .sec1-4center button{
         width: 100%;
         margin: 10px 0 0 0 ;
+        font-size: 12px;
     }
     .telegram-icon{
         margin: 0;
@@ -1015,7 +1015,9 @@
         margin-top: 0px;
     }
     .price-block{
-        height: 200px;
+        height: auto;
+        width: 100%;
+        padding: 60px 20px 50px 20px;
     }
 }
 @media (max-width: 768px){
@@ -1028,6 +1030,15 @@
     .position-block{
         bottom: 40px;
         padding: 0px 130px 0 60px;
+    }
+    .section2{
+        grid-template-columns: repeat(2, 100%);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "i1"
+                             "i2"
+                             "i3"
+                             "i4"
+                             "i5";
     }
 }
 @media (max-width: 480px){
